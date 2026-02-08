@@ -3,26 +3,29 @@
 import styles from "./flow-status.module.css";
 import { FlowItem } from "./flow-item";
 import { useSimulation } from "../simulation/simulation-context";
-import type { RefuelFlowState } from "../simulation/types";
+import type { FlowState } from "../simulation/types";
 
-const steps: RefuelFlowState[] = [
-  "NEED_FUEL",
-  "WAITING_PAYMENT",
-  "PAYMENT_CONFIRMED",
-  "REFUELING",
+
+const steps: FlowState[] = [
+  "NEED_ACCESS",
+  "AWAITING_AUTHORIZATION",
+  "AUTHORIZATION_CONFIRMED",
+  "ACCESSING_RESOURCE",
   "COMPLETED",
 ];
 
-const stepLabel: Record<RefuelFlowState, string> = {
-  NEED_FUEL: "Need fuel",
-  WAITING_PAYMENT: "Payment required",
-  PAYMENT_CONFIRMED: "Payment verified",
-  REFUELING: "Refueling",
-  COMPLETED: "Done",
+
+const stepLabel: Record<FlowState, string> = {
+  NEED_ACCESS: "Access requested",
+  AWAITING_AUTHORIZATION: "Authorization required",
+  AUTHORIZATION_CONFIRMED: "Authorization confirmed",
+  ACCESSING_RESOURCE: "Accessing service",
+  COMPLETED: "Completed",
   ABORTED: "Aborted",
 };
 
-function stepIndex(step: RefuelFlowState) {
+
+function stepIndex(step: FlowState) {
   const idx = steps.indexOf(step);
   return idx === -1 ? 0 : idx;
 }
