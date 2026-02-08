@@ -1,0 +1,6 @@
+aiohttp>=3.9.0
+python-dotenv>=1.0.1
+web3>=6.15.1
+openai>=1.12.0
+openai-agents>=0.0.9
+
