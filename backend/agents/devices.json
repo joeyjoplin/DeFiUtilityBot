@@ -1,0 +1,63 @@
+{
+  "gas_station": [
+    {
+      "device_id": "gas-101",
+      "type": "gas_station",
+      "name": "Gas Station Pinheiros",
+      "location": { "lat": -23.5612, "lon": -46.6922 }
+    },
+    {
+      "device_id": "gas-202",
+      "type": "gas_station",
+      "name": "Gas Station Paulista",
+      "location": { "lat": -23.5640, "lon": -46.6530 }
+    }
+  ],
+  "vending_machine": [
+    {
+      "device_id": "vending-009",
+      "type": "vending_machine",
+      "name": "Vending - Metro Station",
+      "location": { "lat": -23.5505, "lon": -46.6333 },
+      "catalog": [
+        { "sku": "WATER_500ML", "name": "Water 500ml", "price_usd": 1.8 },
+        { "sku": "SODA_350ML", "name": "Soda 350ml", "price_usd": 2.2 },
+        { "sku": "CHIPS_45G", "name": "Chips 45g", "price_usd": 2.5 }
+      ]
+    },
+    {
+      "device_id": "vending-010",
+      "type": "vending_machine",
+      "name": "Vending - Shopping",
+      "location": { "lat": -23.5551, "lon": -46.6402 },
+      "catalog": [
+        { "sku": "WATER_500ML", "name": "Water 500ml", "price_usd": 1.9 },
+        { "sku": "CHIPS_45G", "name": "Chips 45g", "price_usd": 2.5 }
+      ]
+    }
+  ],
+  "laundry": [
+    {
+      "device_id": "laundry-103",
+      "type": "laundry",
+      "name": "Laundry 24h - Pinheiros",
+      "location": { "lat": -23.5620, "lon": -46.6910 },
+      "programs": [
+        { "program": "WASH_30", "duration_minutes": 30, "price_usd": 5.5 },
+        { "program": "WASH_45", "duration_minutes": 45, "price_usd": 7.0 }
+      ]
+    },
+    {
+      "device_id": "laundry-104",
+      "type": "laundry",
+      "name": "Laundry Express - City Center",
+      "location": { "lat": -23.5480, "lon": -46.6350 },
+      "programs": [
+        { "program": "WASH_30", "duration_minutes": 30, "price_usd": 5.0 },
+        { "program": "WASH_60", "duration_minutes": 60, "price_usd": 8.0 },
+        { "program": "WASH_45", "duration_minutes": 45, "price_usd": 6.5 }
+
+      ]
+    }
+  ]
+}

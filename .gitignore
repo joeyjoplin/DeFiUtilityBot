@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# server folders
+station_state.json
+node_modules/
+
+# smartcontracts (Foundry/Hardhat)
+backend/smartcontract/out/
+backend/smartcontract/cache/
+backend/smartcontract/broadcast/
+backend/smartcontract/lib/
+backend/smartcontract/.github/
+backend/smartcontract/.vscode/
+backend/smartcontract/.gitignore
+backend/smartcontract/.gitmodules
+backend/smartcontract/foundry.toml
+backend/smartcontract/foundry.lock
+
+# Visual Studio / VS Workspace
+.vs/
+*.sln.iml

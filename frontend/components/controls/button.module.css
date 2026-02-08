@@ -1,0 +1,25 @@
+.button {
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 120ms ease, border-color 120ms ease, opacity 120ms ease;
+}
+
+.primary {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+.secondary {
+  background: #fff;
+  color: #111;
+  border-color: #e5e7eb;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

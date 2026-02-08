@@ -1,0 +1,90 @@
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 14px;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.sub {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+}
+
+.dotTodo {
+  background: #fff;
+}
+
+.dotActive {
+  background: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.dotDone {
+  background: #22c55e;
+  border-color: #22c55e;
+}
+
+.label {
+  font-weight: 700;
+  font-size: 13px;
+  color: #111;
+}
+
+.labelActive {
+  color: #2563eb;
+}
+
+.badge {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid #bfdbfe;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.abortBadge {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  color: #991b1b;
+  font-weight: 700;
+  font-size: 12px;
+}

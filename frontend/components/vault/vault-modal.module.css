@@ -1,0 +1,103 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.45);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  z-index: 50;
+}
+
+.modal {
+  width: 100%;
+  max-width: 440px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.close {
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.note {
+  font-size: 13px;
+  color: #6b7280;
+  background: #f9fafb;
+  border: 1px dashed #e5e7eb;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+}
+
+.formRow {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #374151;
+}
+
+.inputWrap {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 10px 12px;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.suffix {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6b7280;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.error {
+  margin-top: 8px;
+  color: #b91c1c;
+  font-size: 13px;
+}
+.success {
+  margin-top: 8px;
+  color: #065f46;
+  font-size: 13px;
+}
